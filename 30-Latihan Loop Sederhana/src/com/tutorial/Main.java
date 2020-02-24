@@ -23,7 +23,7 @@ public class Main {
             total = total + nilaiAwal;
             System.out.println("ditambah " + nilaiAwal + " menjadi " + total);
             nilaiAwal++;
-        } */
+        } 
 
         // tugas -> for loop, do while...
         
@@ -32,6 +32,14 @@ public class Main {
          for (; nilaiAwal <= nilaiAkhir; nilaiAwal ++) {
             total = total + nilaiAwal;
             System.out.println("ditambah " + nilaiAwal + " menjadi " + total);
-        }
+        } */
+       
+        // menggunakan do while loop
+        
+        do {
+            total = total + nilaiAwal;
+            System.out.println("ditambah " + nilaiAwal + " menjadi " + total);
+            nilaiAwal++;
+        } while (nilaiAwal <= nilaiAkhir);
     }
 }
